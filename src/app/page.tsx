@@ -17,7 +17,7 @@ export default function Page() {
             <div className="size-40 rounded-full ring-8 ring-white overflow-hidden shadow-xl">
               {/* Replace src with your photo */}
               <img
-                src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=600&auto=format&fit=crop"
+                src="/images/me.jpg"
                 alt="Portrait"
                 className="size-full object-cover"
               />
