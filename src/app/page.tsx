@@ -23,18 +23,6 @@ export default function Page() {
               />
             </div>
           </div>
-
-          {/* Torn edge effect */}
-          <svg
-            viewBox="0 0 600 60"
-            preserveAspectRatio="none"
-            className="absolute bottom-0 left-0 right-0 w-full h-14"
-          >
-            <path
-              d="M0,30 C80,50 120,10 200,30 C280,50 320,10 400,30 C480,50 520,10 600,30 L600,60 L0,60 Z"
-              fill="#fff"
-            />
-          </svg>
         </div>
 
         {/* Details */}
