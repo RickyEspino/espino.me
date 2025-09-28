@@ -40,7 +40,7 @@ export default function Page() {
           {/* Phone */}
           <a href="tel:5621234567" className="group flex items-center gap-3 py-3">
             <PhoneIcon className="size-6 opacity-70 group-hover:opacity-100 transition-opacity" />
-            <span className="font-semibold text-lg tracking-wide">562‑123‑4567</span>
+            <span className="font-semibold text-lg tracking-wide">562-123-4567</span>
           </a>
 
           {/* Website */}
@@ -146,7 +146,7 @@ function LinkedInIcon(props: React.SVGProps<SVGSVGElement>) {
 }
 function InstagramIcon(props: React.SVGProps<SVGSVGElement>) {
   return (
-    <svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap=round\" strokeLinejoin=\"round\" {...props}>
+    <svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" {...props}>
       <rect x="2" y="2" width="20" height="20" rx="5" />
       <circle cx="12" cy="12" r="3.5" />
       <circle cx="17.5" cy="6.5" r="1.5" />
