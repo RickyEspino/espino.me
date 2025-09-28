@@ -7,7 +7,7 @@ export default function Page() {
       {/* Card */}
       <section className="relative z-10 w-full max-w-[420px] shadow-2xl rounded-[2.25rem] overflow-hidden bg-white/90 backdrop-blur">
         {/* Top block */}
-        <div className="relative pt-10 pb-24 px-8" style={{ backgroundColor: '#19007bff' }}>
+        <div className="relative pt-10 pb-24 px-8" style={{ backgroundColor: '#2f2f2fff' }}>
           <h1 className="text-4xl leading-none font-[900] tracking-wide text-white text-center">
             Ricardo Espino
           </h1>
@@ -26,7 +26,7 @@ export default function Page() {
         </div>
 
         {/* Details */}
-        <div className="px-8 pt-24 pb-10" style={{ backgroundColor: '#FFF8F6' }}>
+        <div className="px-8 pt-24 pb-10" style={{ backgroundColor: '#a4a4a4ff' }}>
           {/* Phone */}
           <a href="tel:+19064587998" className="group flex items-center gap-3 py-3">
             <PhoneIcon className="size-6 opacity-70 group-hover:opacity-100 transition-opacity" />
